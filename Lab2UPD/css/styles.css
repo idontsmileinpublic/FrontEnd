@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Noto+Sans:ital@0;1&family=Rubik&display=swap');
+
+body{
+    background: -webkit-linear-gradient(90deg, #006e99,#f9d59d);
+    background: linear-gradient(90deg, #006e99,#f9d59d);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex; 
+    justify-content: center;
+}
+
+.container {
+    padding: 0 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.seccontainer {
+    max-width: 1800px;
+    padding: 0 10px;
+    margin: 0 auto;
+    align-self: center;
+    font-size: 40px;
+}
+
+.Top_menu li{
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu a:hover{
+    color: bisque;
+}
+
+.Top_menu a{
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.promo{
+    max-height: 1220px;
+    background-image: url(/img/03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.inner{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    letter-spacing: 0.02em;
+    margin-bottom: 10px;
+    color:rgb(255, 255, 255);
+    align-self: center;
+    background-color: rgba(162, 215, 225, 0.7);
+}
+
+.subtitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-size: 70px;
+    border-bottom: 6px solid white;
+    margin-bottom: 10px;
+    align-self: center;
+    background-color: rgba(162, 215, 225, 0.7);
+}
+
+.subtitle span{
+    font-family: 'Noto Sans', sans-serif;
+    display: block;
+    font-size: 54px;
+    color: white;
+    padding: 10px 0;
+
+}
+
+.text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    align-self: center;
+    background-color: rgba(162, 215, 225, 0.7);
+}
+
+.arrow{
+    margin-top: auto;
+    align-self: right;
+    background-color: white;
+    position: fixed;
+}
+
+.info{
+    margin-bottom: 100px;
+}
+
+.info__part{
+    padding-top: 100px;
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info__part--first{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.info__title{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.info__part-text{
+    display: flex;
+}
+
+img.info__part-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.info__text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+b.info__text{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+TD.leftcol {
+    width: 110px; 
+    vertical-align: top; 
+   }
+
+#myModal {
+    width: 670px; height: 520px;
+    padding: 25px 23px;
+    border-radius: 4px;
+    background: #fafafa;
+    position: fixed;
+    font-size: 30px;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    text-align: center;
+}
+
+#myModal #myModal__close {
+    width: 21px; height: 21px;
+    position: absolute;
+    font-size: 29px;
+    top: 1px; right: 11px;
+    cursor: pointer;
+    display: block;
+}
+
+#myOverlay {
+    z-index: 37;
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor: pointer;
+    display: none;
+}

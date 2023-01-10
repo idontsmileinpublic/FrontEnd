@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>sonyashnykova</title>
+    <script   src="https://code.jquery.com/jquery-3.6.3.min.js"   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="   crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="ALL_header_menu">
+            <div class="Logo">
+                <h1><img src="/img/mainlogo.png" width="500px"></h1>
+            </div>
+            <div class="Top_menu">
+                <ul>
+                    <li><a class="myLinkModal" href="#">Про Нас</a></li>
+                    <li><a href="https://t.me/howtosonyashnykova">Медіа</a></li>
+                    <li><a href="#">Донати</a></li>
+                    <li><a href="#">Інше</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="promo">
+            <div class="container">
+                <div class="inner">
+                    <h1 class="title">
+                        #YOUAREART.
+                    </h1>
+
+                    <h2 class="subtitle">
+                        Kyiv, UA
+                    </h2>
+
+                    <p class="text">
+                        Пропаганда Українського Мистецтва.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="info">
+
+            <div class="seccontainer">
+                <div class="info__part info__part--first">
+                    <h3 class="info__title">
+                        #STOPWAR.
+                    </h3>
+                    <div class="info__part-text">
+                        <p class="info__text">
+                            ти знаєш усі таємниці, усі секрети <br>
+                            хто в римі пліткарка, й плітки плете <br>
+                            ти знаєш усі вірші невідомих комусь поетів, <br>
+                            у чому різниця між па-де-катр і па-де-де,
+                        </p>
+                        <b class="info__text">соняшникова - це арт-спейс, <br> що існує на просторах українського медіа <br> з 24 лютого 2022 року. </b>
+                    </div>
+                    <img id="nav" class="info__part-img" src="/img/secondmain.png" width="1500px" alt="" onClick="chg(this.id)">
+                </div>
+
+                <br>
+                <h3 class="info__title">
+                    #BOOKS.
+                </h3>
+
+                <table width="100%" cellspacing="100" cellpadding="0">
+                    <tr> 
+                        <td class="leftcol"><img src="/img/firstbook.png" 
+                        alt="First Book"></td>
+                        <td valign="top">
+                            <b>Назва:</b> <br>
+                            <a class="namebook">"Стихи На Балконе"</a>
+
+                            <br><br>
+
+                            <b class="publyear">Дата публікації:</b> <br>
+                            <a class="publy">28 січня 2020 року:</a> 
+
+                            <br><br> 
+
+                            <b class="about">Опис:</b> <br>
+                            <i class="abt">"многие люди находят упоение и усладу в различных канонах искусства. мое НЕканоническое произведение, пропитанное духом поэзии серебряного века, русского авангарда и а-ба-ба-га-ла-ма-га (лина костенко, анатолий кичинский) - на тарелочке. хотела бы добавить, что я обожаю жадана и очень жалею, что не смогла встретиться с ним в реальной жизни...
+                                "</i> <br>
+                        </td>
+                    </tr>
+                </table>
+
+                <table width="100%" cellspacing="100" cellpadding="0">
+                    <tr> 
+                        <td class="leftcol"><img src="/img/secondbook.png" 
+                        alt="First Book"></td>
+                        <td valign="top">
+                            <b>Назва:</b> <br>
+                            <a class="namebook">листи коханому за тисячі кілометрів</a>
+
+                            <br><br>
+
+                            <b class="publyear">Дата публікації:</b> <br>
+                            <a class="publy">7 січня 2023 року</a> 
+
+                            <br><br> 
+
+                            <b class="about">Опис:</b> <br>
+                            <i class="abt">"я набираю номер своєї подружки, та вона не відповідає.
+                                світ здається безбарвним, коли на тобі окуляри, відсвічуючі тільки сірим кольором.
+                                і тут в мене постає питання - а що таки краще? утопія - або рожевий світ без ультиматумів і грошей, які вирішують будь-яку твою проблему.
+                                я поставила 20$ на те, що команда з калебом виграє. і вона перемогла.
+                                на мені - чорна оверсайз худі, різні шкарпетки, крокси й звичайні легінси за 2 бакси з сіарсу, які я придбала зі знижкою в 75 відсотків. а ще мене бісить, що автокорекція не виправляє лексичні помилки- росіянізми..."</i> <br>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="/img/ArrowUp.svg" alt="down"></button>
+        </section>
+
+        <div id="myModal">
+            <p>простір “соняшникова” було створено на початку 2022 року - одразу після повномасштабного вторгнення росією на територію україни. 
+                авторка “соняшникової” - херсонська поетеса софія соняшникова (раніше - подсолнухова). 
+                
+                за мету соняшникова має поширення української культури та мистецтва. до 2022 миткиня писала вірші російською та англійською мовами, але після початку війни зупинила публікацію російськомовного контенту, повністю перейшовши на українську мову. </p>
+            <span id="myModal__close" class="close">ₓ</span>
+        </div>
+        <div id="myOverlay"></div>
+
+
+    </main>
+
+    <script src="/js/main.js"></script>
+
+</body>
+</html>
